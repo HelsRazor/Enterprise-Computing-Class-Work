@@ -1,0 +1,18 @@
+<web-app>
+    <display-name>
+        Project 4 Enterprise Systems (CNT 4714 - Spring 2021)
+    </display-name>
+    <description>
+        This is the web application which will power my MySQLServlet
+    </description>
+    
+    <servlet>
+        <servlet-name>MySQLServlet</servlet-name>
+        <description>Servlet to run and return queries to the web page</description>
+        <servlet-class>project4.MySQLServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MySQLServlet</servlet-name>
+        <url-pattern>/MySQLServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
